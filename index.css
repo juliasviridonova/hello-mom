@@ -1,5 +1,10 @@
 h1 {
-font-size: 30px;
-color: darkgrey;
-margin-bottom: 100px;
+    font-size: 30px;
+    color: darkgrey;
+    margin-bottom: 100px;
+    transition: color 0.3s; /* Добавлено плавное изменение цвета */
+}
+
+h1:hover {
+    color: grey; /* Изменяем цвет при наведении */
 }
